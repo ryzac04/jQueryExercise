@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Movie Ratings App</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Movie Rating App</h1>
+    <form action="">
+      <div class="labelDiv">
+        <label for="text">Title</label>
+        <input type="text" required id="movie">
+      </div>
+      <div class="labelDiv">
+        <label for="text">Rating</label>
+        <input type="number" min="0" max="10" required id="rating">
+      </div>
+      <div class="labelDiv"><button type="submit" id="submit">submit</button>
+      </div>
+    </form>
+  </div>
+
+  <div id="movieContainer"></div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
